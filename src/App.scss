@@ -1,0 +1,43 @@
+input, textarea{
+    outline: none;
+}
+//  甜叫，底部样式
+.swal-footer{
+    text-align: center;
+}
+//  文字选中样式
+*::selection {
+    background: #aad3fe;
+    color: #fff;
+}
+.no-padding{
+    padding: 0px;
+}
+
+//  渐变动画fade
+.fade-enter-active {
+    transition: opacity 500ms 500ms ease;
+    opacity: 1;
+}
+
+// .fade-leave-active {
+//     transition: opacity 500ms ease;
+//     opacity: 1;
+// }
+.fade-enter, .fade-leave-active {
+    opacity: 0;
+}
+
+//  渐变动画fadefast
+.fadefast-enter-active {
+    transition: opacity 500ms ease;
+    opacity: 1;
+}
+
+.fadefast-leave-active {
+    transition: opacity 500ms ease;
+    opacity: 1;
+}
+.fadefast-enter, .fadefast-leave-active {
+    opacity: 0;
+}

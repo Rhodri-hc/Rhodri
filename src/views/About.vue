@@ -49,12 +49,6 @@
 
             <p>一个很纯粹的人</p>
           </div>
-          <div class="col-sm-6 hidden-sm hidden-xs">
-            <img
-              src="https://onaug6th-1253668581.cos.ap-guangzhou.myqcloud.com/common/92249761857029110.jpg"
-              style="float: right; width: 280px;"
-            />
-          </div>
         </div>
       </div>
     </div>
@@ -93,6 +87,11 @@ h2.about {
 
 .content .gray {
   color: #555555;
+}
+.content .gray:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 @media screen and (min-width: 1200px), (min-width: 992px) {

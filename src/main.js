@@ -1,19 +1,19 @@
-import Vue from 'vue';
-import App from './App';
-import router from './router';
-import store from './store/store';
+import Vue from "vue";
+import App from "./App";
+import router from "./router";
+import store from "./store/store";
 
 //	项目的全局默认样式
 import appScss from "./App.scss";
 
 //	superHttp请求库
-import superHttp from './providers/superHttp';
+import superHttp from "./providers/superHttp";
 
 //	项目配置
-import projectConfig from './providers/common';
+import projectConfig from "./providers/common";
 
 //	第三方依赖——进度条样式
-import 'nprogress/nprogress.css';
+import "nprogress/nprogress.css";
 //	第三方依赖——甜叫
 import swal from "sweetalert";
 
@@ -30,7 +30,7 @@ Vue.prototype.$http = superHttp;
 Vue.prototype.$swal = swal;
 
 new Vue({
-	router,
-	store,
-	render: h => h(App)
-}).$mount('#app');
+  router,
+  store,
+  render: h => h(App)
+}).$mount("#app");

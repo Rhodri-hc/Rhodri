@@ -7,11 +7,14 @@
         <div class="gray">
           <div class="col-sm-6">
             <h4>
-              <span>Rhodri</span>
+              <span><i> Rhodri</i></span>
             </h4>
 
             <p>
-              <span>意思是在八月的六号</span>
+              <span
+                >張和潮，1995
+                年出生于广东普寧。愛前端，音樂，健身以及一切有感官衝擊的事物。</span
+              >
             </p>
             <hr />
             <p>
